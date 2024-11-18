@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Card, CardContent } from '/components/ui/';
+import Card from '/components/ui/Card.jsx';
+import CardContent from '/components/ui/CardContent.jsx';
 import { ShoppingCart, Clock, Star, Award, Truck, Shield, Heart, AlertCircle, ArrowRight, Check } from 'lucide-react';
 
 const PremiumSaffronStore = () => {
